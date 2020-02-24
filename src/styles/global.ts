@@ -1,26 +1,30 @@
+ 
 import { createGlobalStyle } from 'styled-components';
+import colors from './colors';
 
 export default createGlobalStyle`
 
-  @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-  
-  * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-  }
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-  body {
-    -webkit-font-smoothing: antialiased;
-  }
+    * {
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat';
+    }
 
-  body, input, button, a, h1 {
-    font-family: 'Montserrat', cursive;
-    font-size: 14px;
-  }
+    body {
+        -webkit-font-smoothing: antialiased;
+    }
 
-  #root {
-    margin: 0 auto;
-  }
+    body, input, button {
+        font-size: 14px;
+        color: ${colors.primary};
+    }
+
+    #root {
+        margin: 0 auto;
+    }
+
 `;
