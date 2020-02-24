@@ -5,7 +5,7 @@ import {
   AboutUs,
   Home,
   Contact,
-  Portfolio,
+  Projects,
 } from '../../components';
 
 const Main: React.FC = () => {
@@ -13,7 +13,7 @@ const Main: React.FC = () => {
     <div>
       <Home />
       <AboutUs />
-      <Portfolio />
+      <Projects />
       <Contact />
     </div>
   );
