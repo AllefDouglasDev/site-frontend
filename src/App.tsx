@@ -1,4 +1,6 @@
 import React from "react";
+import GlobalStyle from './styles/global';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,6 +13,7 @@ import Portfolio from './pages/Portfolio';
 const App: React.FC = () => {
   return (
     <Router>
+        <GlobalStyle />
         <Switch>
           <Route exact path="/" component={Main} />
           <Route path="/portfolio" component={Portfolio} />
