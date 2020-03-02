@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin-bottom: 20px;
   padding: 20px;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     width: 80%;
   }
 `;
@@ -18,17 +18,18 @@ export const Title = styled.h2`
   font-size: ${fonts.bigger}px;
   font-weight: bold;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     font-size: 50px;
   }
 `;
 
 export const Subtitle = styled.h3`
   margin: 40px 0px;
-  font-size: ${fonts.big};
+  font-size: ${fonts.subtitleMobile}px;
 
-  strong {
-    font-weight: bold;
+  @media ${devices.fromTablet} {
+    font-size: ${fonts.subtitleDesktop}px;
+    width: 50%;
   }
 `;
 
@@ -36,6 +37,10 @@ export const ImagesContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
+
+  @media ${devices.fromTablet} {
+    flex-direction: row;
+  }
 `;
 
 export const TechImagesContainer = styled.div`
@@ -44,6 +49,11 @@ export const TechImagesContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media ${devices.fromTablet} {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 `;
 
 export const DuoTechRow = styled.div`
@@ -104,6 +114,16 @@ export const BusinessImagesContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+
+  @media ${devices.fromTablet} {
+    padding-top: 100px;
+    flex: 2;
+  }
 `;
 
-export const BusinessImage = styled.img``;
+export const BusinessImage = styled.img`
+   @media ${devices.fromTablet} {
+    width: 50%;
+    height: 50%;
+  }
+`;

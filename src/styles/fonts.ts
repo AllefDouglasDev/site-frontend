@@ -4,4 +4,7 @@ export default {
   regular: 20,
   big: 24,
   bigger: 28,
+
+  subtitleDesktop: 30,
+  subtitleMobile: 20,
 };

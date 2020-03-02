@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding: 0px 20px;
   margin-bottom: 20px;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     width: 80%;
   }
 `;
@@ -15,7 +15,6 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin: 0px 20px; */
 `;
 
 export const Title = styled.h2`
@@ -25,7 +24,7 @@ export const Title = styled.h2`
   font-size: ${fonts.bigger}px;
   font-weight: bold;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     font-size: 50px;
   }
 `;
@@ -38,7 +37,7 @@ export const SeeMore = styled.a`
   font-weight: bold;
   font-size: 16px;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     font-size: 30px;
   }
 `;
@@ -50,7 +49,7 @@ export const ProjectImagesContainer = styled.ul`
   overflow-y: hidden;
   white-space: nowrap;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     width: 80%;
     overflow-x: hidden;
     display: flex;
@@ -69,7 +68,7 @@ export const ProjectImageLi = styled.li`
   border-radius: 12px;
   vertical-align: middle;
 
-  @media ${devices.fromMobileL} {
+  @media ${devices.fromTablet} {
     flex: 1;
     height: 100%;
     margin: 0px 20px;

@@ -26,7 +26,7 @@ const Techs: React.FC<Props> = () => {
   return (
     <Container>
       <Title>O que usamos para o seu negócio?</Title>
-      <Subtitle>Usamos <strong>tecnologias de ponta</strong>, utilizadas por <strong>grandes empresas</strong> como Uber, AirB&B, Netflix e Instagram.</Subtitle>
+      <Subtitle>Usamos <strong>tecnologias de ponta</strong>, utilizadas por <strong>grandes empresas</strong> como Uber, Twitter, Netflix e Instagram.</Subtitle>
     
       <ImagesContainer>
         <TechImagesContainer>
