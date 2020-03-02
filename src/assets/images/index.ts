@@ -11,8 +11,13 @@ export default {
     node: require('./logo_node.jpg'),
     php: require('./logo_php.png'),
     react: require('./logo_react.png'),
+    facebook: require('./logo_facebook.png'),
+    instagram: require('./logo_instagram.png'),
+    twitter: require('./logo_twitter.png'),
+    github: require('./logo_github.png'),
   },
   man_running_with_coin: require('./man_running_with_coin.svg'),
   man_sitting_on_coins: require('./man_sitting_on_coins.svg'),
   monitor: require('./monitor.svg'),
+  telemarketing: require('./telemarketing.svg'),
 };
