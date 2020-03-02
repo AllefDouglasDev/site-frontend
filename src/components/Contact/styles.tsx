@@ -5,7 +5,7 @@ export const Container = styled.div`
   width: 100%;
   padding: 20px;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     width: 80%;
   }
 `;
@@ -14,7 +14,7 @@ export const Title = styled.h1`
   font-size: ${fonts.titleMobile}px;
   margin-bottom: 40px;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     font-size: ${fonts.titleDesktop}px;
   }
 `;
@@ -24,7 +24,7 @@ export const Subtitle = styled.h2`
   margin-bottom: 40px;
   width: 80%;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     font-size: ${fonts.subtitleDesktop}px;
   }
 `;
@@ -34,7 +34,7 @@ export const Description = styled.p`
   margin-bottom: 20px;
   width: 80%;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     font-size: ${fonts.bigger}px;
   }
 `;
@@ -42,7 +42,7 @@ export const Description = styled.p`
 export const CompanyButtonsContainer = styled.div`
   margin-bottom: 20px;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     margin-bottom: 40px;
   }
 `;
@@ -58,7 +58,7 @@ export const CompanyLogo = styled.img`
   width: 25px;
   height: 25px;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     margin-right: 20px;
     width: 50px;
     height: 50px;
@@ -69,7 +69,7 @@ export const Email = styled.p`
   font-weight: bold;
   font-size: ${fonts.subtitleMobile}px;
   
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     font-size: ${fonts.subtitleDesktop}px;
   }
 `;
@@ -81,7 +81,7 @@ export const TelemarketingContainer = styled.div`
 export const TelemarketingImage = styled.img`
   width: 100%;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     width: 40%;
     float: right;
   }

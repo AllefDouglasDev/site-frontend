@@ -21,11 +21,11 @@ export const Title = styled.h2`
   margin: 0px;
   padding: 0px;
   color: ${colors.primary};
-  font-size: ${fonts.bigger}px;
+  font-size: ${fonts.titleMobile}px;
   font-weight: bold;
 
   @media ${devices.fromTablet} {
-    font-size: 50px;
+    font-size: ${fonts.titleDesktop}px;
   }
 `;
 
