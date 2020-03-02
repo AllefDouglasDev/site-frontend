@@ -3,9 +3,8 @@ import { colors, metrics, fonts, devices } from '../../styles';
 
 export const Container = styled.div`
   width: 100%;
-  padding: 0px ${metrics.space.small};
+  padding: 0px 20px;
   margin-bottom: 20px;
-  
 
   @media ${devices.fromMobileL} {
     width: 80%;
@@ -16,7 +15,7 @@ export const TitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 20px;
+  /* margin: 0px 20px; */
 `;
 
 export const Title = styled.h2`

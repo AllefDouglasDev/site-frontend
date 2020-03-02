@@ -1,7 +1,8 @@
 import React from 'react';
 
 import Project from '../../models/Project';
-import { Container,
+import {
+  Container,
   Title,
   TitleContainer,
   SeeMore,
