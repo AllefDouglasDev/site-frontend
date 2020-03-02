@@ -1,6 +1,7 @@
 # Requisitos funcionais
 
- - [ ] Sobre a empresa (Home)
+ - [ ] Menu
+ - [ ] Home
  - [ ] Sobre nós
- - [ ] Portifólio
+ - [x] Projetos
  - [ ] Contato
