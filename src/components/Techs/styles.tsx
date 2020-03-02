@@ -116,7 +116,7 @@ export const BusinessImagesContainer = styled.div`
   margin-top: 20px;
 
   @media ${devices.fromTablet} {
-    padding-top: 100px;
+    padding-top: 50px;
     flex: 2;
   }
 `;
