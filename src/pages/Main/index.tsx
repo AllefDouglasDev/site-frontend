@@ -8,6 +8,7 @@ import {
   Contact,
   Projects,
   Techs,
+  MainFooter,
 } from '../../components';
 
 const Main: React.FC = () => {
@@ -26,6 +27,7 @@ const Main: React.FC = () => {
       <AboutUs />
       <Techs />
       <Contact />
+      <MainFooter />
     </Container>
   );
 }
