@@ -1,59 +1,66 @@
 import styled from 'styled-components';
-import { colors, devices } from '../../styles'
+import { colors, devices, fonts } from '../../styles'
 
 export const Container = styled.div`
-    width: 80%;
-    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     header {
         background-color: transparent;
         box-shadow: none;
     }
 `;
 
-export const Categories = styled.div`   
-    display: none;
-    width: 50%;
-    justify-content: space-evenly;
-    
-    @media ${devices.fromLaptop} {
-        display: flex;
-    }
-`;
-
-export const CategorieTitle = styled.div`  
-    font-size: 30px;
-    width: 100%;
-    font-weight: bold;
-    color: ${colors.primary};
-
-    @media ${devices.fromLaptop} {
-        display: flex;
-        width: 50%;
-        font-size: 50px;
-    }
-`;
-
-export const MenuBurguer = styled.div`
+export const Containers = styled.div`
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    width: 70px;
-    height: 50px;
-    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
 
     @media ${devices.fromLaptop} {
-        display: none;
+        flex-direction: row;
     }
-`;
+`
 
-export const MenuBurguerLine = styled.div`
-    width: ${({width}: { width?: number }) => width ? width : 100}%;
-    height: 3px;
-    background-color: ${colors.primary};
-`;
+export const ContainerLeft = styled.div`
+    width: 100%;
 
-export const Item = styled.p`
-    font-size: 25px;
+    @media ${devices.fromLaptop} {
+        width: 50%;
+    }
+`
+
+export const ContainerRight = styled.div``
+
+export const Title = styled.h1`
+    font-size: ${fonts.bigger}px;
     color: ${colors.primary};
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+
+    @media ${devices.fromLaptop} {
+        text-align: start;
+        font-size: ${fonts.homeTitleDesktop}px;
+    }
+`
+
+export const Subtitle = styled.h3`
+    font-size: ${fonts.regular}px;
+    color: ${colors.primary};
+    font-weight: normal;
+    text-align: center;
+
+    @media ${devices.fromLaptop} {
+        text-align: start;
+        font-size: ${fonts.homeSubtitleDesktop}px;
+    }
+`
+
+export const LinesContainer = styled.div`
+  width: 100%;
+`;
+
+export const LinesImage = styled.img`
+  width: 100%;
 `;

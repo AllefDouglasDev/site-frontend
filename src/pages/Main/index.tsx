@@ -22,10 +22,10 @@ const Main: React.FC = () => {
   return (
     <Container>
       <Home />
-      <Projects projects={projects}/>
-      <AboutUs />
-      <Techs />
-      <Contact />
+      {/* <Projects projects={projects}/> */}
+      {/* <AboutUs /> */}
+      {/* <Techs /> */}
+      {/* <Contact /> */}
     </Container>
   );
 }

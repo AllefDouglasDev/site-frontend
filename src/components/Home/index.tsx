@@ -1,98 +1,39 @@
-import React from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import MenuItem from '@material-ui/core/MenuItem';
-import Menu from '@material-ui/core/Menu';
-import { Container, Categories, CategorieTitle, MenuBurguer, MenuBurguerLine, Item } from './styles';
+import React from 'react'
+import Lottie from 'react-lottie';
 
-export default function PrimarySearchAppBar() {
-  const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
-  const [mobileMoreAnchorEl, setMobileMoreAnchorEl] = React.useState<null | HTMLElement>(null);
+import { Container, Containers, Title, Subtitle, ContainerLeft, ContainerRight, LinesContainer, LinesImage } from './styles'
 
-  const isMenuOpen = Boolean(anchorEl);
-  const isMobileMenuOpen = Boolean(mobileMoreAnchorEl);
+import { images } from '../../assets'
 
-  const handleProfileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorEl(event.currentTarget);
+const Home = () => {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, 
+    animationData: images.home,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
   };
-
-  const handleMobileMenuClose = () => {
-    setMobileMoreAnchorEl(null);
-  };
-
-  const handleMenuClose = () => {
-    setAnchorEl(null);
-    handleMobileMenuClose();
-  };
-
-  const handleMobileMenuOpen = (event: React.MouseEvent<HTMLElement>) => {
-    setMobileMoreAnchorEl(event.currentTarget);
-  };
-
-  const menuId = 'primary-search-account-menu';
-  const renderMenu = (
-    <Menu
-      anchorEl={anchorEl}
-      anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-      id={menuId}
-      keepMounted
-      transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-      open={isMenuOpen}
-      onClose={handleMenuClose}
-    >
-      <MenuItem onClick={handleMenuClose}>Profile</MenuItem>
-      <MenuItem onClick={handleMenuClose}>My account</MenuItem>
-    </Menu>
-  );
-
-  const mobileMenuId = 'primary-search-account-menu-mobile';
-  const renderMobileMenu = (
-    <Menu
-      anchorEl={mobileMoreAnchorEl}
-      anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
-      id={mobileMenuId}
-      keepMounted
-      transformOrigin={{ vertical: 'top', horizontal: 'right' }}
-      open={isMobileMenuOpen}
-      onClose={handleMobileMenuClose}
-    >
-      <MenuItem>
-        <Item>Início</Item>
-      </MenuItem>
-      <MenuItem>
-        <Item>Projetos</Item>
-      </MenuItem>
-      <MenuItem>
-        <Item>Quem Somos</Item>
-      </MenuItem>
-      <MenuItem onClick={handleProfileMenuOpen}>
-        <Item>Profile</Item>
-      </MenuItem>
-    </Menu>
-  );
 
   return (
     <Container>
-      <AppBar position="static">
-        <Toolbar>
-          <CategorieTitle>
-            NG
-          </CategorieTitle>
-          <Categories>
-            <Item>Início</Item>
-            <Item>Projetos</Item>
-            <Item>Quem somos</Item>
-            <Item>Contato</Item>
-          </Categories>
-          <MenuBurguer>
-            <MenuBurguerLine width={60} />
-            <MenuBurguerLine />
-            <MenuBurguerLine />
-          </MenuBurguer>
-        </Toolbar>
-      </AppBar>
-      {renderMobileMenu}
-      {renderMenu}
+      <Containers>
+        <ContainerLeft>
+          <Lottie 
+            options={defaultOptions}
+          />
+        </ContainerLeft>
+        <ContainerRight>
+          <Title>Pronto para <strong>inovar?</strong></Title>
+          <Subtitle>Desenvolvimento de Websites e Aplicativos</Subtitle>
+        </ContainerRight>
+      </Containers>
+      <LinesContainer>
+        <LinesImage src={images.homeFooter}/>
+      </LinesContainer>
     </Container>
-  );
+  )
 }
+
+export default Home

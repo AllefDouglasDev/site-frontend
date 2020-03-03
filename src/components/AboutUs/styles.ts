@@ -55,7 +55,7 @@ export const NameContainer = styled.div`
 
 	@media ${devices.fromLaptop} {
 		justify-content: flex-start;
-		font-size: ${fonts.subTitle}px;
+		font-size: ${fonts.homeSubtitleDesktop}px;
 	}
 `
 
@@ -78,7 +78,7 @@ export const Name = styled.div`
 	color: ${colors.primary};
 
 	@media ${devices.fromLaptop} {
-		font-size: ${fonts.subTitle}px;
+		font-size: ${fonts.homeSubtitleDesktop}px;
 	}
 `
 
