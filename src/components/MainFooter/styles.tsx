@@ -8,7 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   margin: 50px 0px;
 
-  @media ${devices.fromTablet} {
+  @media ${devices.fromLaptop} {
     width: 80%;
     flex-direction: row;
   }
