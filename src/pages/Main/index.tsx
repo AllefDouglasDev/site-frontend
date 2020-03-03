@@ -22,7 +22,6 @@ const Main: React.FC = () => {
 
   return (
     <Container>
-      Olá amplify
       <Home />
       <Projects projects={projects}/>
       <AboutUs />
