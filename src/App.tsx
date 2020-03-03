@@ -9,7 +9,7 @@ import {
 import GlobalStyle from './styles/global';
 
 import Main from './pages/Main';
-import Portfolio from './pages/Portfolio';
+import Project from './pages/Project';
 
 const App: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <GlobalStyle />
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/projects" component={Project} />
       </Switch>
     </Router>
   );
