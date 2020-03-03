@@ -12,5 +12,7 @@ export default {
   subtitleDesktop: 30,
   subtitleMobile: 20,
 
-  subTitle: 40,
+  homeTitleDesktop: 80,
+
+  homeSubtitleDesktop: 40,
 };

@@ -20,6 +20,8 @@ export default {
   man_sitting_on_coins: require('./man_sitting_on_coins.svg'),
   monitor: require('./monitor.svg'),
   telemarketing: require('./telemarketing.svg'),
+  homeFooter: require('./homeFooter.svg'),
+  home: require('./home.json'),
   allef: require('./allef.png'),
   flavio: require('./flavio.jpeg'),
 };
