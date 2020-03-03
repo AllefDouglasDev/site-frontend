@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.js": "/static/js/main.28b64ce7.chunk.js",
+    "main.js.map": "/static/js/main.28b64ce7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fb18d836.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fb18d836.js.map",
+    "static/js/2.e69225e2.chunk.js": "/static/js/2.e69225e2.chunk.js",
+    "static/js/2.e69225e2.chunk.js.map": "/static/js/2.e69225e2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.337da915eddbc57536cf2e17e4109857.js": "/precache-manifest.337da915eddbc57536cf2e17e4109857.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.e69225e2.chunk.js.LICENSE.txt": "/static/js/2.e69225e2.chunk.js.LICENSE.txt",
+    "static/media/allef.png": "/static/media/allef.10c932e8.png",
+    "static/media/flavio.jpeg": "/static/media/flavio.d43e2377.jpeg",
+    "static/media/group_business.jpg": "/static/media/group_business.7e3b10a4.jpg",
+    "static/media/half-closed-mac.jpg": "/static/media/half-closed-mac.4c9e6d26.jpg",
+    "static/media/homeFooter.svg": "/static/media/homeFooter.83702577.svg",
+    "static/media/logo_android_studio.png": "/static/media/logo_android_studio.2a6a4c5a.png",
+    "static/media/logo_aws.png": "/static/media/logo_aws.aa924925.png",
+    "static/media/logo_facebook.png": "/static/media/logo_facebook.c1554359.png",
+    "static/media/logo_instagram.png": "/static/media/logo_instagram.03f40b67.png",
+    "static/media/logo_java.png": "/static/media/logo_java.4eb1819d.png",
+    "static/media/logo_node.jpg": "/static/media/logo_node.3503c59a.jpg",
+    "static/media/logo_php.png": "/static/media/logo_php.7ddd902a.png",
+    "static/media/logo_react.png": "/static/media/logo_react.4af927e2.png",
+    "static/media/logo_twitter.png": "/static/media/logo_twitter.91c116d0.png",
+    "static/media/man_running_with_coin.svg": "/static/media/man_running_with_coin.fe1b26e3.svg",
+    "static/media/man_sitting_on_coins.svg": "/static/media/man_sitting_on_coins.e9676f67.svg",
+    "static/media/monitor.svg": "/static/media/monitor.466cd745.svg",
+    "static/media/open-mac-with-code.jpg": "/static/media/open-mac-with-code.15c1f6aa.jpg",
+    "static/media/pear-programming.jpg": "/static/media/pear-programming.18b46b3e.jpg",
+    "static/media/telemarketing.svg": "/static/media/telemarketing.7db04343.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb18d836.js",
+    "static/js/2.e69225e2.chunk.js",
+    "static/js/main.28b64ce7.chunk.js"
+  ]
+}
